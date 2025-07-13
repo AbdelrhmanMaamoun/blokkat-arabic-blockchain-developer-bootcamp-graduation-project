@@ -7,6 +7,21 @@ A complete Initial Coin Offering (ICO) dApp built with modern web3 technologies.
 
 - **Live dApp**: [https://shadow-blokkat-arabic-blockchain-developer-steel.vercel.app/]
 
+
+## 🎬 Demo
+
+### Live Demo Walkthrough
+
+[DEMO: https://drive.google.com/file/d/1SvaJWlfVhk8sgvBjQ91fOOFluBphtP2I/view?usp=sharing ]
+
+**Demo Features**:
+- ✅ Wallet connection demonstration
+- ✅ Token purchase process
+- ✅ Real-time transaction monitoring
+- ✅ Contract information display
+- ✅ Transaction history viewing
+
+
 ## 📋 About This Project
 
 ### 🎯 Project Description
@@ -317,20 +332,6 @@ Visit [http://localhost:3000](http://localhost:3000) to see your dApp!
 
 2. **Get Test ETH**: Visit Scroll Sepolia faucet to get test ETH
 
-## 🎬 Demo
-
-### Live Demo Walkthrough
-
-[DEMO: https://drive.google.com/file/d/1SvaJWlfVhk8sgvBjQ91fOOFluBphtP2I/view?usp=sharing ]
-
-**Demo Features**:
-- ✅ Wallet connection demonstration
-- ✅ Token purchase process
-- ✅ Real-time transaction monitoring
-- ✅ Contract information display
-- ✅ Transaction history viewing
-
----
 
 ## 🛠️ Technology Stack
 
