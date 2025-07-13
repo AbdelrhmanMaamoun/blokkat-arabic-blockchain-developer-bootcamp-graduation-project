@@ -215,7 +215,7 @@ function withdrawETH() external onlyOwner {
 
 ### Frontend dApp Hosting
 
-- **Live dApp**: [LINK_TO_BE_ADDED]
+- **Live dApp**: [https://shadow-blokkat-arabic-blockchain-developer-steel.vercel.app/]
 
 ## 🧪 How to Run Tests
 
