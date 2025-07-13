@@ -1,0 +1,5 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+rpc_endpoints = { scroll = "https://sepolia-rpc.scroll.io" }
