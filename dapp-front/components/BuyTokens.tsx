@@ -49,7 +49,7 @@ export default function BuyTokens() {
         if (!ethAmount || !icoRate) return '0'
         const ethValue = parseFloat(ethAmount)
         if (isNaN(ethValue)) return '0'
-        return (ethValue * Number(icoRate)).toLocaleString()
+        return (ethValue * Number(icoRate as bigint)).toLocaleString()
     }
 
     const resetForm = () => {
@@ -84,7 +84,7 @@ export default function BuyTokens() {
                     <span className="text-2xl font-bold">Current Exchange Rate</span>
                 </div>
                 <p className="text-xl">
-                    1 ETH = <span className="font-bold text-2xl">{icoRate ? Number(icoRate).toLocaleString() : '...'}</span> SHDW tokens
+                    1 ETH = <span className="font-bold text-2xl">{icoRate ? Number(icoRate as bigint).toLocaleString() : '...'}</span> SHDW tokens
                 </p>
             </div>
 
@@ -92,7 +92,7 @@ export default function BuyTokens() {
             <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl border-2 border-gray-200 dark:border-gray-700 p-8">
                 <div className="space-y-6">
                     {/* ETH Input */}
-                    <div>
+                    <div key="eth-input">
                         <label htmlFor="ethAmount" className="block text-lg font-semibold text-gray-700 dark:text-gray-300 mb-3">
                             Amount of ETH to Send
                         </label>
@@ -157,7 +157,7 @@ export default function BuyTokens() {
                                 <span className="text-red-800 dark:text-red-200 font-semibold text-lg">Transaction Failed</span>
                             </div>
                             <p className="text-red-700 dark:text-red-300">
-                                Error: {error.message}
+                                Error: {String(error?.message || 'Unknown error')}
                             </p>
                         </div>
                     )}
