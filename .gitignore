@@ -1,0 +1,199 @@
+# ===== DEPENDENCIES =====
+# Node.js dependencies
+node_modules/
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# ===== NEXT.JS FRONTEND =====
+# Next.js build output
+.next/
+/out/
+/build
+
+# Next.js cache
+*.tsbuildinfo
+next-env.d.ts
+
+# ===== FOUNDRY SMART CONTRACTS =====
+# Foundry cache and build artifacts
+cache/
+out/
+
+# Foundry broadcast logs (keep deployment logs but ignore local)
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+
+# ===== ENVIRONMENT VARIABLES =====
+# Environment files (never commit these!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ===== DEVELOPMENT & DEBUG =====
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# ===== IDE & EDITOR =====
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# WebStorm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ===== OPERATING SYSTEM =====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===== DEPLOYMENT =====
+# Vercel
+.vercel
+
+# Netlify
+.netlify
+
+# ===== DOCUMENTATION =====
+# Docs (if auto-generated)
+docs/
+
+# ===== MISCELLANEOUS =====
+# Misc
+*.pem
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# ===== BLOCKCHAIN SPECIFIC =====
+# Private keys and sensitive data
+*.key
+*.pem
+private.txt
+mnemonic.txt
+
+# Hardhat
+cache/
+artifacts/
+typechain/
+typechain-types/
+
+# Foundry (already covered above, but being explicit)
+cache/
+out/
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+
+# ===== TESTING =====
+# Test coverage
+coverage/
+.nyc_output/
+
+# ===== PACKAGE MANAGERS =====
+# npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# pnpm
+.pnpm-store/ 
