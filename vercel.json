@@ -1,7 +1,7 @@
 {
-    "buildCommand": "npm run build",
-    "installCommand": "npm install",
-    "outputDirectory": ".next",
+    "buildCommand": "cd dapp-front && npm install && npm run build",
+    "outputDirectory": "dapp-front/.next",
+    "installCommand": "cd dapp-front && npm install",
     "framework": "nextjs",
     "rootDirectory": "dapp-front"
 }
