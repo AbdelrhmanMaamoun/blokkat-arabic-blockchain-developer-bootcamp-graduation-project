@@ -2,6 +2,11 @@
 
 A complete Initial Coin Offering (ICO) dApp built with modern web3 technologies. This project combines a Next.js frontend with Foundry smart contracts for a seamless token sale experience on Scroll Sepolia testnet.
 
+
+### Frontend dApp Hosting
+
+- **Live dApp**: [https://shadow-blokkat-arabic-blockchain-developer-steel.vercel.app/]
+
 ## 📋 About This Project
 
 ### 🎯 Project Description
@@ -212,10 +217,6 @@ function withdrawETH() external onlyOwner {
 **Note**: These are the currently deployed contracts. If you redeploy, update the addresses in `dapp-front/lib/contracts.ts`.
 
 
-
-### Frontend dApp Hosting
-
-- **Live dApp**: [https://shadow-blokkat-arabic-blockchain-developer-steel.vercel.app/]
 
 ## 🧪 How to Run Tests
 
